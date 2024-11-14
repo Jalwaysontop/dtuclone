@@ -1,0 +1,231 @@
+<html>
+<head>
+    <title>Office of International Affairs - DTU</title>
+    <style>
+        /* Previous styles remain the same */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #1f2641;
+            color: white;
+            padding: 15px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            width: 60px;
+        }
+
+        .about-img {
+            width: 300px;
+            height: auto;
+        }
+
+        .nav-links {
+            text-align: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .announcement {
+            background: #2e3267;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .about {
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .about img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        /* New styles for the full-width image */
+        .full-width-image {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+            object-fit: cover; /* This ensures the image covers the full width without distortion */
+            display: block;
+        }
+
+        .admission {
+            padding: 20px;
+        }
+
+        .cards {
+            margin-top: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .faq {
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        footer {
+            background: #1f2641;
+            color: white;
+            padding: 20px;
+        }
+
+        .footer-section {
+            margin: 20px 0;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+
+        h1, h2, h4 {
+            margin-bottom: 15px;
+        }
+
+        @media (min-width: 768px) {
+            .about {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+
+            footer {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo-section">
+            <img src="dtulogo.png" alt="DTU logo" class="logo">
+            <div>
+                <h4>Office of International Affairs</h4>
+                <p>Delhi Technological University</p>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="main.html">Home</a>
+            <a href="#">About</a>
+            <a href="academic.html">Courses</a>
+            <a href="https://intaffairs.dtu.ac.in/dtuiss.html">DTU ISS</a>
+            <a href="admission.html">Admission</a>
+            <a href="#">Contact</a>
+            <a href="student login.html">Student Corner</a>
+        </div>
+    </nav>
+
+    <div class="announcement">
+        Admission open for Academic Year 2024-2025
+    </div>
+
+    <div class="about">
+        <div>
+            <h1>About DTU</h1>
+            <p>Delhi Technological University (formerly Delhi College of Engineering) has an illustrious history spanning over 80 years. This prestigious institution is well known throughout the world for its world-class education and student-centric research & innovations.</p>
+            <br>
+            <a href="#">Get Started</a>
+        </div>
+        <img src="dtulogo.png" alt="DTU" class="about-img">
+    </div>
+
+    <img src="campus.jpg" alt="University Campus" class="full-width-image">
+    <hr style = "height:3">
+    <img src="international.jpeg" alt="University Campus" width="100%">
+
+    <div class="admission">
+        <h1>Mode of Admission</h1>
+        <div class="cards">
+            <div class="card">
+                <h4>ICCR</h4>
+                <p>Under this category, the application of the candidates shall be routed directly through Indian Council of Cultural Relation (ICCR).</p>
+            </div>
+            <div class="card">
+                <h4>DTU Portal</h4>
+                <p>Under this category, candidates shall apply on-line in the prescribed format before the last date directly on the web portal of the office of International Affairs.</p>
+            </div>
+            <div class="card">
+                <h4>DASA</h4>
+                <p>Under this category, the student directly apply through DASA portal. Complete information regarding the procedure of admission, eligibility and payment of fee will be available on DASA website.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2>Frequently asked Questions</h2>
+        <div class="card">
+            <h4>How to get admission as an international Student at DTU?</h4>
+            <p>You can take admission at DTU via 3 modes: DASA, ICCR, and DTU-Portal.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <h4>Office of International Affairs</h4>
+            <p>Delhi Technological University,<br>
+            Mechanical Department, First Floor<br>
+            Bawana Road, 110042, New Delhi</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="main.html">Home</a>
+            <a href="#">About</a>
+            <a href="academic.html">Courses</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-section">
+            <h4>Other Links</h4>
+            <a href="#">ICCR portal</a>
+            <a href="admission.html">DTU admission portal</a>
+            <a href="international.html">DASA portal</a>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>oia@dtu.ac.in</p>
+            <p>international.dtu@dtu.ac.in</p>
+        </div>
+    </footer>
+</body>
+</html>

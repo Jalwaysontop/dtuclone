@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" >
+    <title>STUDENT REGISTRATION</title>
+</head>
+<body style="margin-top: 10%;">
+    <div class="container" style="width: 500px;">
+        <h1>STUDENT REGISTRATION</h1>
+        <form>
+            <div>
+                <input type="text" class="input-field" placeholder="Name" required>
+            </div>
+            <div>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+            </div>
+            <div>
+                <input type="password" class="input-field" placeholder="Create Password" required>
+            </div>
+            <div>
+                <input type="number" class="input-field" placeholder="Roll Number" required>
+            </div>
+            <div class="input-field" style="text-align: left;">
+                DOB:<input type="date" required >
+            </div>
+            
+
+            <div class="input-field" style="text-align: left;">
+                Branch:<select required>
+                    <option selected>CSE</option>
+                    <option>Mechanical</option>
+                    <option>Civil</option>
+                    <option>Electrical</option>
+                    <option>IT</option>
+                </select>
+            </div>
+            <div class="input-field" style="text-align: left;">
+                Category:<select required>
+                    <option selected>General</option>
+                    <option>OBC</option>
+                    <option>SC</option>
+                    <option>ST</option>
+
+                </select>
+            </div>
+            <div class="input-field" style="text-align: left;">
+                I'm from: Delhi<input type="radio" name="resident" >
+                Outsite Delhi<input type="radio" name="resident">
+            </div>
+            <div class="input-field" style="text-align: left;" >
+                Upload your image: <input type="file" required >
+            </div>
+            <div >
+                <a href="student login.html" target="_blank" class="button">Submit</a>
+            </div>
+            <div>
+                <button type="reset" class="button">Reset</button>
+            </div>
+            <div style="color: black;font-size: 90%;">
+                If already registered
+            </div>           
+            <div>
+                <a href="student login.html" target="_blank" class="button">Login Here</a>
+            </div>
+            
+        </form>
+        <hr>
+        <a href="main.html" style="color: darkblue; text-decoration: none;">Go Home</a>
+
+    </div>
+    
+</body>
+</html>
