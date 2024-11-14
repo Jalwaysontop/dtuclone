@@ -1,0 +1,127 @@
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+        /* Faculty section styling */
+        .faculty-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .faculty-member {
+            display: inline-block;
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .faculty-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .faculty-member h3 {
+            font-size: 1rem;
+            color: darkblue;
+            margin: 0;
+        }
+        .faculty-member p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+
+        /* Container styling */
+        .container {
+            width: 500px;
+            background-color: whitesmoke;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        /* Heading */
+        h1 {
+            font-size: 300%;
+            margin-bottom: 1%;
+            color: black;
+            text-align: center;
+        }
+
+        /* Input styling */
+        .input-field {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 3% solid darkblue;
+            outline: none;
+            color: #333;
+        }
+        
+        article{
+            margin-top:10% ;
+            padding-left: 22%;
+            padding-right: 22%;
+
+        }
+        section{
+            margin-top:3% ;
+            margin-bottom: 3%;
+            color:black;
+        }
+
+        /* Button styling */
+        .button {
+            width: 70%;
+            font-size: 90%;
+            padding: 5%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left:15% ;
+            margin-right:15% ;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            background-color: darkblue;
+            text-decoration: none;
+            display: block;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;  /* Full width for small screens */
+                padding: 1rem;
+            }
+        
+            h1 {
+                font-size: 2rem;  /* Adjust heading size for small screens */
+            }
+        
+            .button {
+                width: 80%;
+                font-size: 1rem;
+                padding: 10px;
+            }
+        
+            .input-field {
+                padding: 1rem;
+                margin: 0.5rem 0;
+            }
+        }
+
+       

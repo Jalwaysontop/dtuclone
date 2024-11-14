@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Gallery - Delhi Technological University (DTU)</title>
+    <style>
+        header{
+            text-align: center;
+            
+        }
+        h2 {
+            color: darkblue;
+            margin-bottom: 1%;
+        }
+        body{
+            margin-top: 1%;
+        }
+        
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+    
+        .gallery-section {
+            padding: 20px 0;
+        }
+        .gallery-section h2 {
+            text-align: center;
+            color: #004080;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            width: calc(33.333% - 20px);
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item p {
+            padding: 10px;
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+        }
+       
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Gallery - Delhi Technological University (DTU)</h1>
+    </header>
+
+    <section class="gallery-section">
+        <h2>Explore Campus Life and Events</h2>
+        <div class="gallery">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <img src="convo.jpg"alt="Convocation Ceremony">
+                <p>Convocation Ceremony</p>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item">
+                <img src="invi.jpg" alt="Annual Tech Fest">
+                <p>Invictus</p>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item">
+                <img src="sports.jpg" alt="Sports Day">
+                <p>Sports Day</p>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item">
+                <img src="C:\Users\juicy\OneDrive\Documents\engi2.jpg" alt="Cultural Festival">
+                <p>Engifest</p>
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item">
+                <img src="research.jpg" alt="Research Award">
+                <p>Research Excellence Award Ceremony</p>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item">
+                <img src="infra.png" alt="Campus Infrastructure">
+                <p>Campus Infrastructure</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <a href="main.html" style="color: darkblue; text-decoration: none;">Go Home</a>
+
+</div>
+
+</body>
+</html>
