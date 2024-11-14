@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DTU Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #00008B;
+            color: white;
+            padding: 20px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-content img {
+            width: 60px;
+            margin-right: 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #00008B;
+            padding: 0;
+            position: relative;
+            z-index: 1000;  /* Ensure dropdown appears above content */
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        /* Dropdown styles */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #0056b3;
+            min-width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Show dropdown on hover */
+        nav ul li:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* Hover effects */
+        nav ul li a:hover {
+            background-color: #004a99;
+        }
+
+        .dropdown-menu li a:hover {
+            background-color: #003f7f;
+        }
+
+        /* Main content styles */
+        main {
+            flex: 1;
+            padding: 20px;
+            background-color: white;  /* Ensure content is visible */
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #00008B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="dtulogo.png" alt="DTU Logo">
+            <div>
+                <h1 style="font-size: 1.8em; margin: 0;">Delhi Technological University</h1>
+                <p style="font-size: 0.9em; margin-top: 5px;">Excellence in Technology and Innovation</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="student registration.html">Student Registration</a></li>
+            <li><a href="notice.html">Notices</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+            <li>
+                <a href="#">Departments</a>
+                <ul class="dropdown-menu">
+                    <li><a href="cse.html">CSE Department</a></li>
+                    <li><a href="it.html">IT Department</a></li>
+                    <li><a href="mechanical.html">Mechanical Department</a></li>
+                    <li><a href="civil.html">Civil Department</a></li>
+                    <li><a href="ece.html">ECE Department</a></li>
+                    <li><a href="ee.html">EE Department</a></li>
+                </ul>
+            </li>
+            <li><a href="academic.html">Academics</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Welcome to DTU Portal</h2>
+        <p></p>
+        <p>Explore various sections of DTU, including academic resources, admission guidelines, notices, and departmental information.</p>
+            <!-- Quick Links Section -->
+            <section style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px;">Quick Links</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 5px;"><a href="history.html" style="color: darkblue; text-decoration: none;">History of DTU</a></li>
+                    <li style="margin-bottom: 5px;"><a href="notice.html" style="color: darkblue; text-decoration: none;">Notices</a></li>
+                    <li style="margin-bottom: 5px;"><a href="admission.html" style="color: darkblue; text-decoration: none;">Admissions</a></li>
+                    <li style="margin-bottom: 5px;"><a href="international.html" style="color: darkblue; text-decoration: none;">International Admissions</a></li>
+                    <li style="margin-bottom: 5px;"><a href="academic.html" style="color: darkblue; text-decoration: none;">Academics</a></li>
+                    <li style="margin-bottom: 5px;"><a href="scholarships.html" style="color: darkblue; text-decoration: none;">Scholarships</a></li>
+                    <li style="margin-bottom: 5px;"><a href="student registration.html" style="color: darkblue; text-decoration: none;">Student Registration</a></li>
+                    <li style="margin-bottom: 5px;"><a href="student login.html" style="color: darkblue; text-decoration: none;">Student Login</a></li>
+                </ul>
+            </section>
+            <p></p>
+            <section style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px;">Departmental Links</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 5px;"><a href="cse.html" style="color: darkblue; text-decoration: none;">Computer Science</a></li>
+                    <li style="margin-bottom: 5px;"><a href="IT.html" style="color: darkblue; text-decoration: none;">IT</a></li>
+                    <li style="margin-bottom: 5px;"><a href="ece.html" style="color: darkblue; text-decoration: none;">ECE</a></li>
+                    <li style="margin-bottom: 5px;"><a href="ee.html" style="color: darkblue; text-decoration: none;">EE</a></li>
+                    <li style="margin-bottom: 5px;"><a href="chemical.html" style="color: darkblue; text-decoration: none;">Chemical</a></li>
+                    <li style="margin-bottom: 5px;"><a href="mechanical.html" style="color: darkblue; text-decoration: none;">Mechanical</a></li>
+                    <li style="margin-bottom: 5px;"><a href="civil.html" style="color: darkblue; text-decoration: none;">Civil</a></li>
+    
+                </ul>
+            </section>
+            <section>
+                <h3 style="margin-bottom: 10px;">Gallery</h3>
+
+                <a href="gallEry.html" style="color: darkblue; text-decoration: none;">Gallery</a>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juicy, Jyotiraditya. Web Designing Project.</p>
+    </footer>
+</body>
+</html>
